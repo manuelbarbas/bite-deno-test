@@ -19,15 +19,15 @@ This project tests the BITE Protocol integration using **Deno** as the secure Ja
 
 ## Installation & Setup
 
-### 1. Install Dependencies
+### 1. Install Deno
 ```bash
-# Deno handles dependencies automatically via imports
-deno cache main.ts
+curl -fsSL https://deno.land/install.sh | sh
+
 ```
 
 ### 2. Run the Application
 ```bash
-deno run --allow-net --allow-read main.ts
+~/.deno/bin/deno task start
 ```
 
 ## Usage
